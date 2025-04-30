@@ -28,5 +28,3 @@ jobs:
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
           PLAYLISTS_CONFIG: ${{ secrets.PLAYLISTS_CONFIG }}
 
-      - name: Keepalive
-        uses: gautamkrishnar/keepalive-workflow@v1
